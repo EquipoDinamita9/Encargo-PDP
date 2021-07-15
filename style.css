@@ -14,16 +14,16 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 /* cambien aquí sus colores, necesitan definir tres */
 
 :root {
-    --primercolor: #222;
-    --segundocolor: #666; /* menos luminoso y más saturado que el primero */
-    --tercercolor: #aaa; /* más luminoso y menos saturado que el primero */
+    --primercolor: #FFFFFF;
+    --segundocolor: #eb569a; /* menos luminoso y más saturado que el primero */
+    --tercercolor: #0075bc; /* más luminoso y menos saturado que el primero */
     --colorclaro: rgba(255, 255, 255, 0.9);
     --coloroscuro: rgba(0, 0, 0, 0.9);
 }
 
 body {
     /* asignen aquí las tipografías y colores para todo texto */
-    font-family: "Andika New Basic", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     background: var(--segundocolor);
     color: var(--colorclaro);
@@ -41,7 +41,7 @@ h5,
 h6,
 p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
-    font-family: "Dela Gothic One", cursive;
+    font-family: "Bebas Neue";
     font-weight: 400;
 }
 
