@@ -52,7 +52,7 @@ a {
 }
 
 a:hover {
-    color: var(--colorclaro);
+    color: var(--coloroscuro);
     text-decoration: none;
 }
 
